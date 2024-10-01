@@ -3,8 +3,6 @@ const readline = require('readline');
 const fs = require('fs');
 const { exec } = require('child_process');
 
-// ensure text has no whitespace, else the program will take the whitespace as the response for this prompt and skip it
-
 // minimum input: 1 paragraph
 
 function write(text, chunk) {
